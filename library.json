@@ -16,7 +16,7 @@
     "version" : "1.0.0",
     "license": "BSD-2-Clause",
     "frameworks": "libopencm3",
-    "platforms": "ststm32, gd32v, siliconlabsefm32, nxplpc, atmelsam", 
+    "platforms": "ststm32, gd32v, siliconlabsefm32, nxplpc, atmelsam, espressif32", 
     "build" : {
         "extraScript": "lib_build.py"
     },
