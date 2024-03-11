@@ -18,8 +18,5 @@
     "platforms": "espressif32", 
     "build" : {
         "extraScript": "lib_build.py"
-    },
-    "dependencies": {
-        "bojit/PlatformIO-FreeRTOS": "^1.0.0"
     }
 }
