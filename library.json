@@ -1,21 +1,21 @@
 {
     "name" : "PlatformIO-lwIP",
     "description": "lwIP mirror modified for use with PlatformIO and FreeRTOS",
-    "keywords": "lwIP, FreeRTOS,libopencm3, network",
+    "keywords": "lwIP",
     "authors": [
         {
             "name": "James Bennion-Pedley",
-            "url": "https://github.com/BOJIT",
+            "url": "https://github.com/i-am-shodan/PlatformIO-lwIP",
             "maintainer": true
         }
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BOJIT/PlatformIO-lwIP"
+        "url": "https://github.com/i-am-shodan/PlatformIO-lwIP"
     },
     "version" : "1.0.0",
     "license": "BSD-2-Clause",
-    "platforms": "ststm32, gd32v, siliconlabsefm32, nxplpc, atmelsam, espressif32", 
+    "platforms": "espressif32", 
     "build" : {
         "extraScript": "lib_build.py"
     },
